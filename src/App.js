@@ -11,7 +11,7 @@ export default function App() {
         return (
             <Card
                 key={item.id}
-                item={item}
+                {...item} //Applied the spread syntax
                 // img={item.coverImg}
                 // iconImg={item.iconImg}
                 // rating={item.stats.rating}
